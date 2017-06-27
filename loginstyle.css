@@ -1,0 +1,67 @@
+.root
+{
+ -fx-background-image: url("tlo4.jpg");
+}
+
+.label
+{
+ -fx-font-size: 32px;
+ -fx-font-weight: bold;
+ -fx-text-fill: #8B008B;
+}
+
+#Witamy,#hello
+{
+ -fx-font-size: 48px;
+ -fx-font-family: "Arial Black";
+ -fx-fill: #8B008B;
+ -fx-effect: innershadow(three-pass-box, rgba(0,0,0,0.7), 6, 0.0, 0, 2);
+}
+
+#tableText
+{
+ -fx-font-size: 48px;
+ -fx-font-family: "Arial Black";
+ -fx-fill: #8B008B;
+ -fx-effect: innershadow(three-pass-box, rgba(0,0,0,0.7), 6, 0.0, 0, 2); 
+    
+}
+
+#tableText2
+{
+ -fx-font-size: 32px;
+ -fx-font-family: "Arial Black";
+ -fx-fill: #8B008B;
+ -fx-effect: innershadow(three-pass-box, rgba(0,0,0,0.7), 6, 0.0, 0, 2); 
+    
+}
+
+.button
+{
+    -fx-font-weight: bold;
+    -fx-background-color:
+        linear-gradient(#40ccda, #208ada),
+        radial-gradient(center 50% -40%, radius 200%, #40ccda 45%, #208ada 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #104060;
+}
+
+.button:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color:
+        linear-gradient(#50e0ff, #20a0ff),
+        radial-gradient(center 50% -40%, radius 200%, #50e0ff 45%, #20a0ff 50%);
+    -fx-text-fill: #103550;
+} 
+
+.button:pressed
+{
+    -fx-font-weight: bold;
+    -fx-background-color:
+        #40cfff,
+        linear-gradient(rgba(100,180,240,0.5), rgba(15,70,100,0.7), rgba(100,180,240,0.5));
+    -fx-text-fill: #60e0ff;
+}
