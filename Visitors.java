@@ -13,6 +13,7 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import model.Theme;
 
+//tworzenie klasy visitors 
 public class Visitors implements EventHandler{
     
     private Stage stage;
@@ -24,6 +25,7 @@ public class Visitors implements EventHandler{
     private Button btnGoLogin;
     private TableView<Theme> tabela;
     
+    // tworzenie interfejsu dla Goscia
     public void setVisitorsScene(Stage primaryStage,ObservableList<Theme> Themes)
     {
         stage=new Stage();
