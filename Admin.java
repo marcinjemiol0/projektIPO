@@ -258,7 +258,7 @@ public class Admin implements EventHandler {
             }
         }
     }
-
+// metoda dodajTemat odpowiada za dodawanie tematow przez administratora
     public Integer dodajTemat() throws MalformedURLException, IOException {
 
         Integer flaga = 0;
