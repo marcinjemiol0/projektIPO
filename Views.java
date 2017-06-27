@@ -5,7 +5,7 @@ import javafx.application.Application;
 import javafx.stage.Stage;
 
 
-
+//tworzenie klasy glownej views, ktora uruchomi klase LogIn
 public class Views extends Application {
 
     
