@@ -284,7 +284,7 @@ public class Admin implements EventHandler {
         in.close();
         return flaga;
     }
-
+// metoda polegajaca na usunieciu wybranego tematu przez administratora
     public Integer deleteSelectedTheme(Integer id) {
 
         Integer flaga = 0;
